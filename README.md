@@ -12,7 +12,7 @@ Celem zadania było stworzenie skryptu w języku Python, który łączy się z A
 
 ## 🚀 Funkcjonalności
 
-[cite_start]Zgodnie z wymaganiami zadania, aplikacja realizuje następujące funkcje:
+Zgodnie z wymaganiami zadania, aplikacja realizuje następujące funkcje:
 * **Integracja z GPT-4o:** Wykorzystuje model językowy do analizy i strukturyzacji tekstu.
 * **Generowanie tagów HTML:** Tworzy kod ograniczony do zawartości sekcji `<body>` (bez `<html>` czy `<head>`).
 * **Inteligentne obrazowanie:** Wstawia tagi `<img src="image_placeholder.jpg">` w miejscach, gdzie grafika wzbogaciłaby treść.
@@ -29,11 +29,11 @@ Celem zadania było stworzenie skryptu w języku Python, który łączy się z A
 
 1.  Sklonuj repozytorium:
     ```bash
-    git clone [https://github.com/twoj-nick/oxido-recruitment-task.git](https://github.com/twoj-nick/oxido-recruitment-task.git)
-    cd oxido-recruitment-task
+    git clone https://github.com/AntekKozlowski/openai-html-generator.git
+    cd openai-html-generator
     ```
 
-2.  [cite_start]Zainstaluj wymagane zależności:
+2.  Zainstaluj wymagane zależności:
     ```bash
     pip install openai
     ```
@@ -41,27 +41,27 @@ Celem zadania było stworzenie skryptu w języku Python, który łączy się z A
 ## ⚙️ Konfiguracja
 
 1.  Otwórz plik `htmlGenerator.py`.
-2.  [cite_start]Wprowadź swój klucz API w odpowiednim miejscu:
+2.  Wprowadź swój klucz API w odpowiednim miejscu:
     ```python
     openai.api_key = 'TWOJ_KLUCZ_API'
     ```
 
 ## ▶️ Uruchomienie (Instrukcja)
 
-1.  [cite_start]Upewnij się, że w katalogu znajduje się plik **`artykulTekst.txt`** z treścią artykułu do przetworzenia.
+1.  Upewnij się, że w katalogu znajduje się plik **`artykulTekst.txt`** z treścią artykułu do przetworzenia.
 2.  Uruchom program:
     ```bash
     python htmlGenerator.py
     ```
-3.  [cite_start]Po wyświetleniu komunikatu *"Zakonczono sukcesem"*, sprawdź wynik w nowo utworzonym pliku **`artykul.html`**.
-4.  [cite_start](Opcjonalnie) Aby zobaczyć sformatowany podgląd, możesz wykorzystać załączony plik `szablon.html` lub `podglad.html`.
+3.  Po wyświetleniu komunikatu *"Zakonczono sukcesem"*, sprawdź wynik w nowo utworzonym pliku **`artykul.html`**.
+4.  (Opcjonalnie) Aby zobaczyć sformatowany podgląd, możesz wykorzystać załączony plik `szablon.html` lub `podglad.html`.
 
 ## 📂 Struktura plików
 
 * `htmlGenerator.py` - Kod źródłowy aplikacji (Python).
 * `artykulTekst.txt` - Plik wejściowy z artykułem.
 * `artykul.html` - Wynik działania programu (wygenerowany kod HTML).
-* [cite_start]`szablon.html` / `podglad.html` - Pliki pomocnicze do wizualizacji wyniku w przeglądarce.
+* `szablon.html` / `podglad.html` - Pliki pomocnicze do wizualizacji wyniku w przeglądarce.
 
 ---
 *Autor: Antoni Kozłowski*
